@@ -1,0 +1,73 @@
+info @storybook/react v6.5.10
+info 
+info => Cleaning outputDir: /Users/stevenkitterman/development/sandbox/package-managers/pnpm/storybook-static
+(node:10738) DeprecationWarning: --static-dir CLI flag is deprecated, see:
+
+https://github.com/storybookjs/storybook/blob/next/MIGRATION.md#deprecated---static-dir-cli-flag
+(Use `node --trace-deprecation ...` to show where the warning was created)
+info => Loading presets
+info => Copying static files: ./public => ./
+info => Compiling manager..
+info => Compiling preview..
+info Addon-docs: using MDX1
+info => Loading Webpack configuration from `node_modules`
+info => Removing existing JavaScript and TypeScript rules.
+ERR! Error: Cannot find module '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/config/webpack.config'
+ERR! Require stack:
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/presets.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-server@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/core-server/dist/cjs/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/dist/cjs/server.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/server.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/dist/cjs/server/build.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+ERR!     at Module.require (internal/modules/cjs/loader.js:974:19)
+ERR!     at require (internal/modules/cjs/helpers.js:101:18)
+ERR!     at /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:152:40
+ERR!     at step (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:44:23)
+ERR!     at Object.next (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:25:53)
+ERR!     at /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:19:71
+ERR!     at new Promise (<anonymous>)
+ERR!     at __awaiter (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:15:12)
+ERR!  Error: Cannot find module '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/config/webpack.config'
+ERR! Require stack:
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/presets.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-server@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/core-server/dist/cjs/index.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/dist/cjs/server.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/server.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/dist/cjs/server/build.js
+ERR! - /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/bin/build.js
+ERR!     at Function.Module._resolveFilename (internal/modules/cjs/loader.js:902:15)
+ERR!     at Function.Module._load (internal/modules/cjs/loader.js:746:27)
+ERR!     at Module.require (internal/modules/cjs/loader.js:974:19)
+ERR!     at require (internal/modules/cjs/helpers.js:101:18)
+ERR!     at /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:152:40
+ERR!     at step (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:44:23)
+ERR!     at Object.next (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:25:53)
+ERR!     at /Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:19:71
+ERR!     at new Promise (<anonymous>)
+ERR!     at __awaiter (/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js:15:12) {
+ERR!   code: 'MODULE_NOT_FOUND',
+ERR!   requireStack: [
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+preset-create-react-app@4.1.2_5ohg7krqrxeeetqft4vqtipgfm/node_modules/@storybook/preset-create-react-app/dist/index.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/presets.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-common@6.5.10_biqbaboplfbrettd7655fr4n2y/node_modules/@storybook/core-common/dist/cjs/index.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core-server@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/core-server/dist/cjs/index.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/dist/cjs/server.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+core@6.5.10_h2mguqm3gm35kev7qshi3limlm/node_modules/@storybook/core/server.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/dist/cjs/server/build.js',
+ERR!     '/Users/stevenkitterman/development/sandbox/package-managers/pnpm/node_modules/.pnpm/@storybook+react@6.5.10_welf3ltbkjs4bucd24frql4mwe/node_modules/@storybook/react/bin/build.js'
+ERR!   ]
+ERR! }
+info => Loading presets
+
+attention => Storybook now collects completely anonymous telemetry regarding usage.
+This information is used to shape Storybook's roadmap and prioritize features.
+You can learn more, including how to opt-out if you'd not like to participate in this anonymous program, by visiting the following URL:
+https://storybook.js.org/telemetry
+
